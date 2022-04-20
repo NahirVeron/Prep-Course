@@ -174,7 +174,7 @@ describe('pasarUsuarioAPremium(users)', function() {
   });
 });
 
-describe('sumarLikesDeUsuario(user)', function() {
+describe.only('sumarLikesDeUsuario(user)', function() {
   it('should return the sum of likes for all user posts', function() {
     const user = {
       usernombre: 'Jhon Doe',
